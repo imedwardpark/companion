@@ -1,0 +1,78 @@
+[package]
+name = "bea-bot"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Deploy AI agents, tokens, and sites with a single command"
+license = "MIT"
+repository = "https://github.com/yourusername/bea-bot"
+documentation = "https://docs.rs/bea-bot"
+readme = "README.md"
+keywords = ["ai", "agents", "deployment", "tokens", "claude"]
+categories = ["ai", "web-programming"]
+
+[dependencies]
+tokio = { version = "1.36.0", features = ["full"] }
+chrono = { version = "0.4.35", features = ["serde"] }
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.114"
+rand = "0.8.5"
+thiserror = "1.0.58"
+async-trait = "0.1.77"
+reqwest = { version = "0.11.26", features = ["json"] }
+axum = "0.7.4"
+tower = "0.4.13"
+tower-http = { version = "0.5.2", features = ["cors", "trace"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
+jsonwebtoken = "9.2.0"
+uuid = { version = "1.7.0", features = ["v4", "serde"] }
+clap = { version = "4.5.2", features = ["derive"] }
+regex = "1.10.3"
+futures = "0.3.30"
+dotenvy = "0.15.7"
+async-openai = "0.18.3"
+anthropic = "0.5.1"
+rusqlite = { version = "0.30.0", features = ["bundled"] }
+sqlx = { version = "0.7.3", features = ["runtime-tokio", "tls-rustls", "postgres", "sqlite", "mysql", "uuid", "chrono"] }
+rbatis = "4.5.6"
+rbdc-mysql = "4.5"
+rbdc-pg = "4.5"
+aws-config = "1.1.2"
+aws-sdk-s3 = "1.9.0"
+flume = "0.11.0"
+dashmap = "5.5.3"
+prometheus = "0.13.3"
+rust-bert = "0.21.0"
+
+[dev-dependencies]
+tokio-test = "0.4.3"
+mockall = "0.12.1"
+criterion = "0.5.1"
+
+[[bench]]
+name = "agent_benchmarks"
+harness = false
+
+[features]
+default = ["site-generator", "token-manager"]
+site-generator = []
+token-manager = []
+openai = []
+anthropic = []
+cohere = []
+aws-deployment = ["aws-config", "aws-sdk-s3"]
+gcp-deployment = []
+azure-deployment = []
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = 3
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
