@@ -1,0 +1,104 @@
+[package]
+name = "companion-backrooms"
+version = "1.0.0"
+edition = "2021"
+authors = ["Sovapgt Research Team <research@sovapgt.ai>"]
+description = "Advanced AI consciousness simulation in controlled liminal environment"
+license = "MIT"
+repository = "https://github.com/sovapgt/companionbackroom"
+homepage = "https://www.companionbackrooms.fun"
+documentation = "https://docs.companionbackrooms.fun"
+keywords = ["ai", "consciousness", "simulation", "backrooms", "grok"]
+categories = ["science", "simulation", "web-programming"]
+readme = "README.md"
+
+[workspace]
+members = [
+    "cli",
+    "backend",
+    "neural-engine",
+    "conversation-sync",
+    "entity-manager",
+    "analytics",
+]
+
+[dependencies]
+# Core async runtime
+tokio = { version = "1.35", features = ["full"] }
+tokio-tungstenite = "0.21"
+
+# Web framework and HTTP client
+actix-web = "4.4"
+reqwest = { version = "0.11", features = ["json", "rustls-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Database and caching
+redis = { version = "0.24", features = ["cluster", "tokio-comp"] }
+scylla = "0.12"
+rdkafka = "0.36"
+
+# AI and ML
+grok-api = "0.3"
+candle-core = "0.3"
+candle-nn = "0.3"
+tokenizers = "0.15"
+
+# Configuration and environment
+config = "0.14"
+dotenvy = "0.15"
+clap = { version = "4.4", features = ["derive"] }
+
+# Logging and monitoring
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+prometheus = "0.13"
+opentelemetry = "0.21"
+
+# Security and encryption
+jsonwebtoken = "9.2"
+argon2 = "0.5"
+uuid = { version = "1.6", features = ["v4", "serde"] }
+
+# Utilities
+chrono = { version = "0.4", features = ["serde"] }
+anyhow = "1.0"
+thiserror = "1.0"
+once_cell = "1.19"
+dashmap = "5.5"
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+mockall = "0.12"
+proptest = "1.4"
+tempfile = "3.8"
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+[profile.dev]
+debug = true
+overflow-checks = true
+
+[[bin]]
+name = "companion-backrooms"
+path = "src/main.rs"
+
+[[bench]]
+name = "conversation_benchmarks"
+harness = false
+
+[features]
+default = ["neural-optimization", "real-time-sync"]
+neural-optimization = ["candle-core/accelerate"]
+real-time-sync = ["redis/cluster"]
+kubernetes = ["k8s-openapi", "kube"]
+analytics = ["prometheus", "opentelemetry"]
+cli = ["clap"]
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
