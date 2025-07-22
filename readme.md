@@ -1,5 +1,11 @@
 # 🏢 Companion Backrooms
 
+<div align="center">
+  <img src="https://cdn.prod.website-files.com/6740d85c4e3daeef29a89470/687fc70248e014c82395dc33_ab1821fe1cb2e0d0256bbcf3bbab847a.png" alt="Companion Backrooms Banner" width="100%" style="max-width: 800px; border-radius: 8px;">
+</div>
+
+<br>
+
 > **Advanced AI Consciousness Simulation in Controlled Liminal Environment**
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-companionbackrooms.fun-00D4AA?style=for-the-badge&logo=firefox&logoColor=white)](https://www.companionbackrooms.fun/)
@@ -289,8 +295,9 @@ If you use Companion Backrooms in your research, please cite:
 
 - **🐛 Bug Reports**: [GitHub Issues](https://github.com/sovapgt/companionbackroom/issues)
 - **💬 Discussions**: [GitHub Discussions](https://github.com/sovapgt/companionbackroom/discussions)
-- **📚 Documentation**: [docs.companionbackrooms.ai](https://docs.companionbackrooms.ai)
-- **🔬 Research Papers**: [research.companionbackrooms.ai](https://research.companionbackrooms.ai)
+- **📚 Documentation**: [docs.companionbackrooms.fun](https://docs.companionbackrooms.fun)
+- **🔬 Research Papers**: [research.companionbackrooms.fun](https://research.companionbackrooms.fun)
+- **🌐 Live Demo**: [www.companionbackrooms.fun](https://www.companionbackrooms.fun)
 
 ---
 
