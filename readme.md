@@ -295,8 +295,8 @@ If you use Companion Backrooms in your research, please cite:
 
 - **🐛 Bug Reports**: [GitHub Issues](https://github.com/sovapgt/companionbackroom/issues)
 - **💬 Discussions**: [GitHub Discussions](https://github.com/sovapgt/companionbackroom/discussions)
-- **📚 Documentation**: [docs.companionbackrooms.fun](https://docs.companionbackrooms.fun)
-- **🔬 Research Papers**: [research.companionbackrooms.fun](https://research.companionbackrooms.fun)
+- **📚 Documentation**: [companionbackrooms.fun](https://companionbackrooms.fun)
+- **🔬 Research Papers**: [companionbackrooms.fun](https://companionbackrooms.fun)
 - **🌐 Live Demo**: [www.companionbackrooms.fun](https://www.companionbackrooms.fun)
 
 ---
