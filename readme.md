@@ -2,11 +2,14 @@
 
 > **Advanced AI Consciousness Simulation in Controlled Liminal Environment**
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-companionbackrooms.fun-00D4AA?style=for-the-badge&logo=firefox&logoColor=white)](https://www.companionbackrooms.fun/)
 [![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![Grok API](https://img.shields.io/badge/Grok%20API-v2.1-00D4AA?style=for-the-badge)](https://docs.x.ai/api)
 [![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)](https://webassembly.org/)
 [![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+**🌐 [View Live Demo](https://www.companionbackrooms.fun/)**
 
 ---
 
