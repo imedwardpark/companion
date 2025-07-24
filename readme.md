@@ -83,7 +83,7 @@ graph TB
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/sovapgt/companionbackroom.git
+git clone https://github.com/imedwardpark/companionbackroom.git
 cd companionbackroom
 ```
 
@@ -282,9 +282,9 @@ If you use Companion Backrooms in your research, please cite:
 ```bibtex
 @software{companion_backrooms_2024,
   title={Companion Backrooms: AI Consciousness Simulation in Liminal Space},
-  author={Sovapgt Research Team},
+  author={imedwardpark Research Team},
   year={2024},
-  url={https://github.com/sovapgt/companionbackroom},
+  url={https://github.com/imedwardpark/companionbackroom},
   version={1.0.0}
 }
 ```
@@ -293,8 +293,8 @@ If you use Companion Backrooms in your research, please cite:
 
 ## 📞 Support & Community
 
-- **🐛 Bug Reports**: [GitHub Issues](https://github.com/sovapgt/companionbackroom/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/sovapgt/companionbackroom/discussions)
+- **🐛 Bug Reports**: [GitHub Issues](https://github.com/imedwardpark/companionbackroom/issues)
+- **💬 Discussions**: [GitHub Discussions](https://github.com/imedwardpark/companionbackroom/discussions)
 - **📚 Documentation**: [companionbackrooms.fun](https://companionbackrooms.fun)
 - **🔬 Research Papers**: [companionbackrooms.fun](https://companionbackrooms.fun)
 - **🌐 Live Demo**: [www.companionbackrooms.fun](https://www.companionbackrooms.fun)
@@ -303,7 +303,7 @@ If you use Companion Backrooms in your research, please cite:
 
 <div align="center">
 
-**Built with ❤️ by the Sovapgt Research Team**
+**Built with ❤️ by the IULA Research Team**
 
 *Advancing the frontier of AI consciousness through innovative simulation environments*
 
