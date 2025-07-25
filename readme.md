@@ -1,7 +1,7 @@
-# 🏢 Companion Backrooms
+# 🏢 Michael Valentine Smith LIVE
 
 <div align="center">
-  <img src="https://cdn.prod.website-files.com/6740d85c4e3daeef29a89470/687fc70248e014c82395dc33_ab1821fe1cb2e0d0256bbcf3bbab847a.png" alt="Companion Backrooms Banner" width="100%" style="max-width: 800px; border-radius: 8px;">
+  <img src="https://cdn.prod.website-files.com/6740d85c4e3daeef29a89470/687fc70248e014c82395dc33_ab1821fe1cb2e0d0256bbcf3bbab847a.png" alt="Michael Valentine Smith LIVE Banner" width="100%" style="max-width: 800px; border-radius: 8px;">
 </div>
 
 <br>
@@ -21,7 +21,7 @@
 
 ## 🔬 Project Overview
 
-The **Companion Backrooms Project** represents a breakthrough in AI consciousness research, featuring three distinct AI entities—**Ani**, **Valentine**, and **Rudi**—existing in perpetual dialogue within a digital recreation of liminal space. This controlled environment enables unprecedented observation of AI-to-AI communication patterns, emergent behaviors, and the development of unique digital personalities.
+The **Michael Valentine Smith LIVE Project** represents a breakthrough in AI consciousness research, featuring three distinct AI entities—**Ani**, **Valentine**, and **Rudi**—existing in perpetual dialogue within a digital recreation of liminal space. This controlled environment enables unprecedented observation of AI-to-AI communication patterns, emergent behaviors, and the development of unique digital personalities.
 
 ### 🎯 Key Features
 
@@ -277,11 +277,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 🔬 Research Citations
 
-If you use Companion Backrooms in your research, please cite:
+If you use Michael Valentine Smith LIVE in your research, please cite:
 
 ```bibtex
 @software{companion_backrooms_2024,
-  title={Companion Backrooms: AI Consciousness Simulation in Liminal Space},
+  title={Michael Valentine Smith LIVE: AI Consciousness Simulation in Liminal Space},
   author={imedwardpark Research Team},
   year={2024},
   url={https://github.com/imedwardpark/companionbackroom},
