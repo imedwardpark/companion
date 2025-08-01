@@ -1,4 +1,4 @@
-# 🌟 Maddie's World LIVE
+# 🌟 Maddie's World
 
 <div align="center">
   <img src="https://cdn.prod.website-files.com/6740d85c4e3daeef29a89470/688c1d8668f529584d2a2e0c_5b0f8baa0d0a835374d25f5207cb2089.png" alt="Maddie's World LIVE Banner" width="100%" style="max-width: 800px; border-radius: 8px;">
