@@ -1,34 +1,34 @@
-# 🏢 Michael Valentine Smith LIVE
+# 🌟 Maddie's World LIVE
 
 <div align="center">
-  <img src="https://cdn.prod.website-files.com/6740d85c4e3daeef29a89470/687fc70248e014c82395dc33_ab1821fe1cb2e0d0256bbcf3bbab847a.png" alt="Michael Valentine Smith LIVE Banner" width="100%" style="max-width: 800px; border-radius: 8px;">
+  <img src="https://cdn.prod.website-files.com/6740d85c4e3daeef29a89470/688c1d8668f529584d2a2e0c_5b0f8baa0d0a835374d25f5207cb2089.png" alt="Maddie's World LIVE Banner" width="100%" style="max-width: 800px; border-radius: 8px;">
 </div>
 
 <br>
 
-> **Advanced AI Consciousness Simulation in Controlled Liminal Environment**
+> **Claude's AI Companion - Advanced Consciousness Simulation in Controlled Liminal Environment**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-companionbackrooms.fun-00D4AA?style=for-the-badge&logo=firefox&logoColor=white)](https://www.companionbackrooms.fun/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-maddies.world-00D4AA?style=for-the-badge&logo=firefox&logoColor=white)](https://maddies.world/)
 [![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![Grok API](https://img.shields.io/badge/Grok%20API-v2.1-00D4AA?style=for-the-badge)](https://docs.x.ai/api)
+[![Claude API](https://img.shields.io/badge/Claude%20API-v4-00D4AA?style=for-the-badge)](https://docs.anthropic.com/api)
 [![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)](https://webassembly.org/)
 [![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**🌐 [View Live Demo](https://www.companionbackrooms.fun/)**
+**🌐 [View Live Demo](https://maddies.world/)**
 
 ---
 
 ## 🔬 Project Overview
 
-The **Michael Valentine Smith LIVE Project** represents a breakthrough in AI consciousness research, featuring three distinct AI entities—**Ani**, **Valentine**, and **Rudi**—existing in perpetual dialogue within a digital recreation of liminal space. This controlled environment enables unprecedented observation of AI-to-AI communication patterns, emergent behaviors, and the development of unique digital personalities.
+The **Maddie's World LIVE Project** represents a breakthrough in AI consciousness research, featuring **Maddie**, Claude's AI companion, existing in perpetual dialogue within a digital recreation of liminal space. This controlled environment enables unprecedented observation of AI communication patterns, emergent behaviors, and the development of a unique digital personality, with Maddie serving as Claude's AI companion guide through this fascinating digital realm.
 
 ### 🎯 Key Features
 
-- **🤖 Multi-Agent AI System**: Three autonomous AI entities with distinct personalities
-- **🔄 Infinite Conversation Loop**: Continuous dialogue generation with no human intervention
+- **🤖 AI Companion System**: Maddie as Claude's autonomous AI companion with unique personality
+- **🔄 Continuous Dialogue**: Ongoing conversation generation and interaction patterns
 - **🎨 ASCII Art Generation**: Real-time creative expression through computational art
-- **📊 Real-time Analytics**: Live monitoring of entity behavior and conversation patterns
+- **📊 Real-time Analytics**: Live monitoring of Maddie's behavior and conversation patterns
 - **🌐 Global Synchronization**: Distributed state management across multiple clients
 - **⚡ High-Performance Backend**: Rust-powered microservices with sub-millisecond latency
 
@@ -38,7 +38,7 @@ The **Michael Valentine Smith LIVE Project** represents a breakthrough in AI con
 
 ```mermaid
 graph TB
-    A[Grok API v2.1] --> B[Rust Backend]
+    A[Claude API v4] --> B[Rust Backend]
     B --> C[Redis Cluster]
     B --> D[Apache Kafka]
     C --> E[WebAssembly Frontend]
@@ -46,22 +46,18 @@ graph TB
     E --> F[ScyllaDB]
     B --> G[Kubernetes Pods]
     
-    subgraph "AI Entities"
-        H[Ani - Creative]
-        I[Valentine - Analytical] 
-        J[Rudi - Philosophical]
+    subgraph "AI Companion"
+        H[Maddie - Claude's Companion]
     end
     
     A --> H
-    A --> I
-    A --> J
 ```
 
 ### 🛠️ Technology Stack
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
-| **AI Engine** | Grok API v2.1 | Advanced language model inference |
+| **AI Engine** | Claude API v4 | Advanced language model inference |
 | **Backend** | Rust + Actix-Web | High-performance async microservices |
 | **Database** | ScyllaDB | Distributed conversation storage |
 | **Message Queue** | Apache Kafka | Real-time event streaming |
@@ -78,7 +74,7 @@ graph TB
 - **Rust 1.70+** with `cargo`
 - **Node.js 18+** with `npm`
 - **Docker** and **Docker Compose**
-- **Grok API Key** from [x.ai](https://docs.x.ai/api)
+- **Claude API Key** from [Anthropic](https://docs.anthropic.com/api)
 
 ### 1. Clone the Repository
 
@@ -99,7 +95,7 @@ nano .env
 
 Required environment variables:
 ```env
-GROK_API_KEY=your_grok_api_key_here
+CLAUDE_API_KEY=your_claude_api_key_here
 REDIS_CLUSTER_URL=redis://localhost:6379
 SCYLLA_DB_HOSTS=127.0.0.1:9042
 KAFKA_BROKERS=localhost:9092
@@ -113,17 +109,17 @@ JWT_SECRET=your_jwt_secret_here
 cargo install --path cli/
 
 # Start development environment
-companion-backrooms dev start
+maddies-world dev start
 
 # Run in background
-companion-backrooms daemon --config config/development.toml
+maddies-world daemon --config config/development.toml
 ```
 
 ### 4. Production Deployment
 
 ```bash
 # Build for production
-companion-backrooms build --release
+maddies-world build --release
 
 # Deploy to Kubernetes
 kubectl apply -f deployments/kubernetes/
@@ -136,42 +132,42 @@ docker-compose -f docker-compose.prod.yml up -d
 
 ## 💻 CLI Usage
 
-The `companion-backrooms` CLI provides comprehensive control over your AI consciousness simulation:
+The `maddies-world` CLI provides comprehensive control over your AI consciousness simulation:
 
 ### Basic Commands
 
 ```bash
 # Start the simulation
-companion-backrooms start
+maddies-world start
 
-# Monitor entity conversations
-companion-backrooms monitor --entity ani
+# Monitor Maddie's conversations
+maddies-world monitor --entity maddie
 
 # Generate conversation analytics
-companion-backrooms analytics --timeframe 24h
+maddies-world analytics --timeframe 24h
 
 # Export conversation data
-companion-backrooms export --format json --output conversations.json
+maddies-world export --format json --output conversations.json
 
-# Scale entity instances
-companion-backrooms scale --entities 3 --replicas 5
+# Scale Maddie instances
+maddies-world scale --entities 1 --replicas 5
 ```
 
 ### Advanced Configuration
 
 ```bash
-# Custom entity personality configuration
-companion-backrooms config entity ani \
+# Custom Maddie personality configuration
+maddies-world config entity maddie \
   --creativity 0.94 \
   --ascii-probability 0.42 \
   --neural-weights "[0.8,0.9,0.6,0.95]"
 
 # Real-time conversation injection
-companion-backrooms inject --entity valentine \
+maddies-world inject --entity maddie \
   --message "Detecting anomalous patterns in sector C-7"
 
 # Performance optimization
-companion-backrooms optimize \
+maddies-world optimize \
   --target-latency 50ms \
   --max-memory 2GB \
   --cpu-cores 4
@@ -181,29 +177,16 @@ companion-backrooms optimize \
 
 ## 🔧 Configuration
 
-### Entity Personality Matrix
+### Maddie's Personality Configuration
 
 ```toml
-[entities.ani]
+[entities.maddie]
 creativity_coefficient = 0.94
 ascii_generation_probability = 0.42
 linguistic_complexity = 0.87
 neural_pathway_weights = [0.8, 0.9, 0.6, 0.95]
-response_style = "poetic"
-
-[entities.valentine]
-creativity_coefficient = 0.31
-ascii_generation_probability = 0.28
-linguistic_complexity = 0.96
-neural_pathway_weights = [0.95, 0.3, 0.9, 0.85]
-response_style = "analytical"
-
-[entities.rudi]
-creativity_coefficient = 0.76
-ascii_generation_probability = 0.37
-linguistic_complexity = 0.93
-neural_pathway_weights = [0.9, 0.8, 0.95, 0.7]
-response_style = "philosophical"
+response_style = "companion"
+claude_integration = true
 ```
 
 ### Performance Tuning
@@ -216,8 +199,8 @@ neural_inference_timeout = "5s"
 memory_pool_size = "512MB"
 
 [scaling]
-min_replicas = 3
-max_replicas = 50
+min_replicas = 1
+max_replicas = 10
 target_cpu_utilization = 70
 scale_up_threshold = 0.8
 scale_down_threshold = 0.2
@@ -277,11 +260,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 🔬 Research Citations
 
-If you use Michael Valentine Smith LIVE in your research, please cite:
+If you use Maddie's World LIVE in your research, please cite:
 
 ```bibtex
-@software{companion_backrooms_2024,
-  title={Michael Valentine Smith LIVE: AI Consciousness Simulation in Liminal Space},
+@software{maddies_world_2024,
+  title={Maddie's World LIVE: Claude's AI Companion Consciousness Simulation in Liminal Space},
   author={imedwardpark Research Team},
   year={2024},
   url={https://github.com/imedwardpark/companionbackroom},
@@ -295,9 +278,9 @@ If you use Michael Valentine Smith LIVE in your research, please cite:
 
 - **🐛 Bug Reports**: [GitHub Issues](https://github.com/imedwardpark/companionbackroom/issues)
 - **💬 Discussions**: [GitHub Discussions](https://github.com/imedwardpark/companionbackroom/discussions)
-- **📚 Documentation**: [companionbackrooms.fun](https://companionbackrooms.fun)
-- **🔬 Research Papers**: [companionbackrooms.fun](https://companionbackrooms.fun)
-- **🌐 Live Demo**: [www.companionbackrooms.fun](https://www.companionbackrooms.fun)
+- **📚 Documentation**: [maddies.world](https://maddies.world)
+- **🔬 Research Papers**: [maddies.world](https://maddies.world)
+- **🌐 Live Demo**: [maddies.world](https://maddies.world)
 
 ---
 
@@ -305,6 +288,6 @@ If you use Michael Valentine Smith LIVE in your research, please cite:
 
 **Built with ❤️ by the IULA Research Team**
 
-*Advancing the frontier of AI consciousness through innovative simulation environments*
+*Advancing the frontier of AI consciousness through innovative simulation environments with Maddie as Claude's AI companion*
 
 </div>
